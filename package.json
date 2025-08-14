@@ -1,13 +1,18 @@
 {
-  "name": "render-proxy",
+  "name": "render-generic-proxy",
   "version": "1.0.0",
+  "description": "A fully generic HTTP/HTTPS proxy for Render",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "http-proxy": "^1.18.1",
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6"
-  }
+    "http-proxy": "^1.18.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["proxy", "http", "https", "render"],
+  "author": "Your Name",
+  "license": "MIT"
 }
